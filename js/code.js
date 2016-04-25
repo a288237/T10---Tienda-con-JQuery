@@ -10,7 +10,7 @@ $(document).ready(function(){
 
       $(columnaEliminar).click(function(){
         var filaEliminar = $(this).parentNode;
-        $("tbody").remove(filaEliminar);
+        $(renglon).remove(filaEliminar);
       });
 
       $(renglon).append(columnaArticulo, columnaPrecio, columnaEliminar);
