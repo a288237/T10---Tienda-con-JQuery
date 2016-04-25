@@ -1,0 +1,15 @@
+table thead {
+  background-color: darkgray;
+  color: white;
+}
+table tfoot {
+  background-color: yellow;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: white;
+}
