@@ -13,3 +13,14 @@ table tbody tr:nth-child(even) {
 table tbody tr:nth-child(odd) {
   background-color: white;
 }
+div{
+  margin: 50px auto;
+  width: 500px;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: #F9EBEB;
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}

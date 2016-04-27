@@ -4,31 +4,37 @@
     <meta charset="utf-8">
     <title>T10 - Tienda con jQuery</title>
     <link rel="stylesheet" href="css/style.css" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-    <h1>Tienda con jQuery</h1>
-    <input type="text">
-    <input type="number">
-    <button>Agregar</button>
-    <h2>Carrito</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Producto</th>
-          <th>Precio</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
 
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Total</td>
-          <td id="total">0.00</td>
-        </tr>
-      </tfoot>
-    </table>
+  <body>
+    <div class="">
+      <h1>Tienda con jQuery</h1>
+      <input type="text" placeholder="producto">
+      <input type="number" placeholder="Precio">
+      <button class="btn btn-success pull-center"><i class="fa fa-plus-circle" aria-hidden="true">Agregar</i></button>
+      <h2>Carrito</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Quitar</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td colspan="2" id="total">0.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
 
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/code.js"></script>
